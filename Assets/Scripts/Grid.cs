@@ -7,7 +7,7 @@ public class Grid : MonoBehaviour
     [Header("Grid Settings")]
     [SerializeField] [Range(1,10)] public int rows = 9;
     [SerializeField] [Range(1, 10)] public int cols = 9;
-    [SerializeField] private float tileSize = 0.5f;
+    [SerializeField] private float blockSize = 0.5f;
 
     [Header("Color")]
     [SerializeField][Range(1, 6)] private int colorCount = 4;
@@ -54,18 +54,18 @@ public class Grid : MonoBehaviour
                 BoardObject[row, col] = Instantiate(Board[row, col].BlockGameObject, transform);
                 
 
-                float x = col * tileSize;
-                float y = row * -tileSize;
+                float x = col * blockSize;
+                float y = row * -blockSize;
 
                 BoardObject[row, col].transform.position = new Vector2(x, y);
             }
         }
 
 
-        float w = cols * tileSize;
-        float h = rows * tileSize;
+        float w = cols * blockSize;
+        float h = rows * blockSize;
 
-        transform.position = new Vector2(-w / 2 + tileSize / 2, h / 2 - tileSize / 2);
+        transform.position = new Vector2(-w / 2 + blockSize / 2, h / 2 - blockSize / 2);
     }
 
     private Block pickRandomBlock()

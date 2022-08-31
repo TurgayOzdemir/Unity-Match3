@@ -553,7 +553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows: 9
   cols: 9
-  tileSize: 0.5
+  blockSize: 0.5
   colorCount: 4
   Blocks:
   - {fileID: 11400000, guid: 3effa52181f23b34e92d8b5eacaafbb3, type: 2}
