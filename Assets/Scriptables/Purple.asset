@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c065faf68b5bdc742b42c3a703bdf026, type: 3}
+  m_Name: Purple
+  m_EditorClassIdentifier: 
+  Color: Purple
+  BlockGameObject: {fileID: 5510841159144218852, guid: eac6e3d6fece2164e97552177db3f9c9, type: 3}
+  DefaultIcon: {fileID: 21300000, guid: 84899a827fcac8a418f6a1b3f343b7de, type: 3}
+  FirstIcon: {fileID: 21300000, guid: bcbd26c36699c7144a994d4507700cdf, type: 3}
+  SecondIcon: {fileID: 21300000, guid: 150a0e564da517e44b4e9a8c247c2efd, type: 3}
+  ThirdIcon: {fileID: 21300000, guid: 5fdf3a36b0b86ba4eb764001e9ebd521, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c065faf68b5bdc742b42c3a703bdf026, type: 3}
+  m_Name: Yellow
+  m_EditorClassIdentifier: 
+  Color: Yellow
+  BlockGameObject: {fileID: 2040253773337589584, guid: 8e7113b4ecc406b4a8a535135b5438ad, type: 3}
+  DefaultIcon: {fileID: 21300000, guid: 5e9523952c4830c479ce68948c9e0ec8, type: 3}
+  FirstIcon: {fileID: 21300000, guid: f8cfe76a070fccb4faa29cf51f14f176, type: 3}
+  SecondIcon: {fileID: 21300000, guid: b2355206aaec5ea4c9362b6726885e5e, type: 3}
+  ThirdIcon: {fileID: 21300000, guid: 89a1449b8ec6ab1439592cef12a16a55, type: 3}
