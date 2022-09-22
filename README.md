@@ -1,12 +1,12 @@
 <h1 align="center"> Unity Match 3 Template </h1> <br>
 <p align="center">
   <a href="#">
-    <img alt="GitPoint" title="GitPoint" src="readme/main.png" width="400">
+    <img alt="GitPoint" title="GitPoint" src="readme/Animation.gif" width="400">
   </a>
 </p>
 <br>
 <p align="left">
-  This was my test project while learning to create grids. I calculated how many blocks of the same color come side by side. I changed the icons according to the situation.
+  This was my test project while learning to create grids. I calculated how many blocks of the same color come side by side. I changed the icons according to the situation. (With the last update, I added the Blasting/Shifting mechanic.)
 </p>
 <br>
 <a href="#">
