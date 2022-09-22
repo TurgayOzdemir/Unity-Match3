@@ -52,7 +52,9 @@ public class Grid : MonoBehaviour
             {
                 Board[row, col] = pickRandomBlock();
                 BoardObject[row, col] = Instantiate(Board[row, col].BlockGameObject, transform);
-                
+                BoardObject[row, col].GetComponent<InfoHandler>().SetRow(row);
+                BoardObject[row, col].GetComponent<InfoHandler>().SetCol(col);
+                BoardObject[row, col].GetComponent<InfoHandler>().SetColor(Board[row, col].Color);
 
                 float x = col * blockSize;
                 float y = row * -blockSize;
@@ -68,7 +70,7 @@ public class Grid : MonoBehaviour
         transform.position = new Vector2(-w / 2 + blockSize / 2, h / 2 - blockSize / 2);
     }
 
-    private Block pickRandomBlock()
+    public Block pickRandomBlock()
     {
         return Blocks[Random.Range(0, colorCount)];
     }
