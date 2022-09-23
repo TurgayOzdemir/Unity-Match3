@@ -36,7 +36,11 @@ public class BlockController : MonoBehaviour
 
                     for (int i = 0; i < output.Count; i++)
                     {
-                        if (output.Count >= 5 && output.Count < 8)
+                        if (output.Count < 5)
+                        {
+                            output[i].GetComponent<SpriteRenderer>().sprite = Grid.Instance.Board[row, col].DefaultIcon;
+                        }
+                        else if (output.Count >= 5 && output.Count < 8)
                         {
                             output[i].GetComponent<SpriteRenderer>().sprite = Grid.Instance.Board[row, col].FirstIcon;
                         }
